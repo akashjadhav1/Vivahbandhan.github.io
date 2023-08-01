@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Here</title>
+</head>
+<style>
+    body{
+        background-image: url("image/bg1.png");
+    }
+    .login{
+        position: absolute;
+        top: 30px;
+        left: 400px;
+        background-image: url("image/bg1.png");
+        text-align: center;
+        border-radius: 40px;
+        box-shadow: 10px 10px 15px rgb(19, 19, 21);
+        border: 1px solid rgb(38, 70, 117);
+    }
+    form{
+        padding: 20px;
+        margin: 25px;
+        color: white;
+        border-radius: 15px;
+        border: 1px solid white;
+        
+    }
+    .passCheck{
+        padding: 20px;
+        margin-left: 40px;
+    }
+    button{
+        background: none;
+        border: 2px solid rgb(227, 209, 209);
+        color: white;
+        border-radius: 5px;
+        padding-inline:100px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+
+    }
+    button:hover{
+        background-color: black;
+        }
+    p{
+        cursor: pointer;
+    }
+    h1{
+        border: 2px solid rgb(254, 252, 252);
+        padding: 5px;
+        width: 40px;
+        margin-left: 42%;
+        border-radius: 30px;
+        color: white;
+        text-shadow: 2px 2px 3px rgb(212, 130, 212) ;
+    }
+    input{
+        margin-left: 8px;
+        background-color: rgb(33, 60, 116);
+        border-radius: 5px;
+        border: 1px solid grey;
+        color: white;
+    }
+    h3{
+    margin-top: 5px;
+    }
+    .icon img{
+        height: 25px;
+        width: 25px;
+        margin: 2px;
+        cursor: pointer;
+    }
+    
+</style>
+<body>
+    <div class="login">
+    <h1>AJ</h1>
+    
+    <form action="https://www.google.com" method="get">
+        <h3>Login Here</h3>
+        <div class="username">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="" placeholder="Username">
+        </div>
+            <br>
+        <div>
+            <label for="username">Password:</label>
+            <input type="password" name="username" id="" placeholder="Password">
+
+        </div>
+        <div class="passCheck">
+            Remember Password<input type="checkbox" name="" id="">
+            Show Password<input type="checkbox" name="" id="">
+
+        </div>
+        <button type="submit">Login</button>
+        <p>Forgot Password?</p>
+        <p>New user?Signup here</p>
+        <div class="icon">
+            <a href="https://www.google.com"><img src="image/fb.png" alt="fb" srcset=""></a>
+            <a href="#"><img src="image/instagram.png" alt="fb" srcset=""></a>
+            <a href="#"><img src="image/twitter.png" alt="fb" srcset=""></a>
+        </div>
+    </div>
+    </form>
+    
+    
+</body>
+</html>
