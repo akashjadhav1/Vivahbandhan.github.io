@@ -146,7 +146,7 @@ body{
   
 
 }
-.title{
+.main-title{
   font-size: 70px;
   color: #e9cbcb;
   position: absolute;
@@ -164,7 +164,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #f0f0f0;
 }
 
@@ -224,6 +223,7 @@ div  a .startBtn{
 }
 .about{
   background-color:#e9cbcb;
+  text-align: center;
 }
 
 .about h1{
@@ -302,7 +302,137 @@ footer {
   text-align: center;
   color: #fcf9f9;
   padding: 10px 0;
+  background-color:#0a0a0a;
 }
+
+
+@media screen and (max-width: 667px) {
+  body{
+    padding: 0%;
+    margin: 0%;
+  }
+  .navbar img{
+    height: 50px;
+    width: 100px;
+  }
+  .navbar-item {
+    margin-right: 0px;
+
+  }
+  .mySlides{
+    
+    
+    width: 100%;
+    height: 520px;
+    animation: fadeIn 20s;
+  
+  }
+  .navbar-link button{
+    width: 49px;
+    height: 25px;
+    font-size: 12px;
+  }
+  .main-title{
+    font-size: 50px;
+    position: absolute;
+    top:10%;
+    left: 8%; 
+  }
+.tagline{
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+.content{
+  font-size: 30px !important;
+  position: absolute;
+  top: -164px;
+  left: -46px;
+}
+h1{
+  font-size: 40px !important;
+}
+.dropdown{
+  position: absolute;
+  left: 23px;
+  top: 400px;
+}
+
+.select{
+  width: auto;
+  height: 30px;
+}
+.info-btn{
+  position: absolute;
+  top: 60px;
+  background-color:#78d5f2;
+  color: black;
+  height: 30px;
+}
+  .container2 {
+    font-family: Arial, sans-serif;
+    
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .card {
+    display: flex;
+    position:relative;
+    flex-direction:column;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+    
+  }
+  
+  .column {
+    width: 320px;
+    flex: 1;
+    text-align: center;
+    border:2px solid black;
+    border-radius:4px;
+    box-shadow:3px 3px 5px rgb(29, 26, 26);
+  }
+  .card img{
+    border-radius:4px;
+    
+    width:318px;
+    border-bottom: 4px solid black;
+  }
+  .getStarted{
+    
+  
+  }
+  .startBtn{
+    width: 80px !important;
+    height: auto !important;
+    font-size:15px !important;
+  }
+  .getApp{
+    font-size: 15px !important;
+  }
+  .about h1{
+    padding-top: 10px;
+    text-align:center;
+    margin: 30px;
+    font-size:26px !important;
+  }
+  .about p{
+    text-align:justify;
+    width: 200px;
+    font-size: 13px;
+    
+  }
+  
+
+}
+  
+
 
 
 
